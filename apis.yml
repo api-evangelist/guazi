@@ -1,8 +1,26 @@
 aid: guazi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/guazi.png
 name: Guazi
-description: 'Guazi is a company surfaced as a portfolio company of hongshan, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: technology. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Guazi is a China-based used-car export, auction, and trading platform
+  founded in 2015 and headquartered in Beijing. It connects international dealers and
+  buyers with used vehicles sourced across China, offering sealed-bid online auctions,
+  Buy It Now direct sales, a 200-plus-point vehicle inspection process, direct sourcing
+  on request, and global logistics shipping to more than 50 countries via container
+  and Ro-Ro. Backed by SoftBank Vision Fund, HongShan (Sequoia China), and Tencent,
+  Guazi handles over 200,000 vehicles annually. This API Evangelist profile currently
+  tracks the company''s public web presence; no public developer program, API, or
+  SDK has been found.'
 url: https://raw.githubusercontent.com/api-evangelist/guazi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Technology
+- Automotive
+- Used Cars
+- Marketplace
+- E-Commerce
+- Auctions
+- Logistics
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/guazi-domain-security.yml
 - type: Website
   url: https://guazi.com
+- type: PrivacyPolicy
+  url: https://en.guazi.com/privacy-policy/
+- type: TermsOfService
+  url: https://en.guazi.com/conditions-terms/
+- type: Support
+  url: https://en.guazi.com/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
