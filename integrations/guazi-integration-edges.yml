@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/guazi/integrations
+- https://n8n.io/integrations/guazi/
+- https://composio.dev/toolkits/guazi
+- https://monid.ai/tools/guazi
+checked:
+- https://composio.dev/toolkits/guazi
+- https://monid.ai/tools/guazi
+- https://n8n.io/integrations/guazi/
+- https://zapier.com/apps/guazi/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
